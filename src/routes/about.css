@@ -1,0 +1,22 @@
+.about {
+    margin: auto;
+    width: 80%;
+    text-align: start;
+}
+
+.about h2 {
+    color: var(--main-color);
+    margin: 30px 0 10px 0;
+    line-height: 2.4;
+}
+
+.first-header {
+    margin: 0 0 10px 0!important;
+}
+
+.about p {
+    color: var(--black-text);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}

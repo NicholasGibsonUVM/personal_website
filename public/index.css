@@ -1,0 +1,41 @@
+:root {
+    --light-color: #F5F2F1;
+    --light-accent: #8E919E;
+    --main-color: #A4864A;
+    --dark-accent: #A7646C;
+    --dark-shades: #2A2F4A;
+    --black-text: #53585b;
+    --bg-grain-light: url('./assets/bg-grain.png');
+}
+
+html {
+    line-height: 1.6;
+    background-color: var(--light-color);
+    color: var(--black-text);
+    background-image: var(--bg-grain-light);
+}
+
+header {
+    background-image: var(--bg-grain-light);
+}
+
+body {
+    background-color: var(--light-color)!important;
+    background-image: var(--bg-grain-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.2;
+}
+
+footer {
+    background-color: var(--light-color);
+    color: var(--black-text);
+    padding: 1em;
+    text-align: center;
+    background-image: var(--bg-grain-light);
+}
